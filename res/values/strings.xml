@@ -321,4 +321,13 @@
 
     <string name="dialog_content_aero_car_event">We are glad to announce that Aerocar is joining Zoro to provide black car service in the Vancouver area.</string>
 
+    <string name="dialog_content_remind_upgrade">A newer version of Zoro is available.\nWould you like to update now?</string>
+    <string name="dialog_content_force_upgrade">You are using an outdated version.\nPlease upgrade to continue using Zoro.</string>
+    <string name="dialog_content_do_not_show_again">Do not show again until next critical update</string>
+    <string name="dialog_action_upgrade_yes">Upgrade</string>
+    <string name="dialog_action_upgrade_later">Later</string>
+    <!--<string name="dialog_action_upgrade_no">No, thanks</string>-->
+    <string name="dialog_title_force_upgrade">Critical Upgrade</string>
+    <string name="dialog_title_remind_upgrade">Upgrade available</string>
+
 </resources>

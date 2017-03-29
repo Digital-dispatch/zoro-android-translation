@@ -30,14 +30,14 @@
 
     <!-- About -->
     <string name="version_small">Versio: %s</string>
-    
+
     <string name="about_text_stats">Zoro on tarjolla nyt myös %1$s:ssa, tuetuissa %2$s-laitteissa.</string>
     <string name="about_text_cities">%d kaupungissa</string>
     <string name="about_text_partners">%d kumppanilla</string>
 
-    <string name="about_text_1">Zoro tekee kyydin tilaamisesta helppoa ja nopeaa.</string>
-    <string name="about_text_2">Zoro toimii laajalla alueella ja tavoittaa useita kuljetusten tarjoajia.</string>
-    <string name="about_dds">&#169; 2017 Digital Dispatch Systems</string>
+    <string name="about_text_1">Zoro vie kohti parempaa kyydin varausta.</string>
+    <string name="about_text_2">Zoro löytää useita kuljetusten tarjoajia laajalta alueelta.</string>
+    <string name="about_dds">&#169; 2016 Digital Dispatch Systems</string>
     <string name="title_about_partner"> Zoro kumppanit</string>
     <string name="title_about_service_area"> Zoro toiminta-alueet</string>
 
@@ -298,7 +298,7 @@
     <string name="intro_content_4_2">Vastaanota ZoroKoodi\naina kun käytät ZoroPayta</string>
     <string name="intro_content_4_3">Anna ZoroKoodi kuljettajallesi\nkun nouset autoon</string>
     <string name="intro_content_4_4">Näin varmistat että\ntilaus ja maksu liittyvät toisiinsa</string>
-    <string name="intro_content_4_5">Saavuttuasi kohteeseen\nsinun tarvitsee vain nousta autosta</string>
+    <string name="intro_content_4_5">Saavuttuasi perille\nvoit heti nousta autosta</string>
     <string name="intro_content_4_6">Saatavilla palveluun liittyneiltä kuljetusten tarjoajilta</string>
 
     <string name="default_car_type_any_type">Kaikki tyypit</string>
@@ -325,5 +325,14 @@
     <string name="default_attribute_delivery">Toimitus</string>
 
     <string name="dialog_content_aero_car_event">Meillä on ilo ilmoittaa, että Aerocar tuo Zoroon mustien autojen palvelut Vancouverin alueella.</string>
+
+    <string name="dialog_content_remind_upgrade">Zorosta on tarjolla uudempi versio.\nHaluatko päivittää sen nyt?</string>
+    <string name="dialog_content_force_upgrade">Käytät vanhentunutta versiota.\nPäivitä Zoro jatkaaksesi sen käyttöä.</string>
+    <string name="dialog_content_do_not_show_again">Näytä uudestaan vasta kun päivitys on kriittinen</string>
+    <string name="dialog_action_upgrade_yes">Päivitä</string>
+    <string name="dialog_action_upgrade_later">Myöhemmin</string>
+    <!--<string name="dialog_action_upgrade_no">No, thanks</string>-->
+    <string name="dialog_title_force_upgrade">Kriittinen päivitys</string>
+    <string name="dialog_title_remind_upgrade">Päivitys saatavilla</string>
 
 </resources>
