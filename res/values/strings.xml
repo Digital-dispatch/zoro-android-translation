@@ -41,8 +41,6 @@
     <string name="title_about_partner"> Zoro partners</string>
     <string name="title_about_service_area"> Zoro service areas</string>
 
-    <string name="reg_device_start">Login&#8230;</string>
-
     <string name="profile">Profile</string>
     <string name="payment">Payment</string>
     <string name="about">About</string>
@@ -208,6 +206,7 @@
     <string name="err_invalid_attr_combination">Sorry, we don’t have any cars with options like that, please turn off some options and try again.</string>
     <string name="err_unknown_payment_token">Sorry, there appears to be an issue with your registered credit card. Please register another card.</string>
     <string name="invalid_phone_num">Invalid phone number</string>
+    <string name="phone_num_too_short">Phone number cannot be shorter than %1$d digits.</string>
     <string name="err_cannot_connect_google_client">Not able to connect to Google location client</string>
     <string name="pick_me_up_here">PICK ME UP HERE</string>
     <string name="eta_format">Est. %1$s</string>
@@ -243,7 +242,6 @@
     <string name="resend_code">RESEND CODE</string>
     <string name="add_card">ADD CARD</string>
     <string name="sign_up">Sign up</string>
-    <string name="sign_up_upper_case">SIGN UP</string>
     <string name="zorocode_tooltip"><![CDATA[Give this code to your driver when entering vehicle.<br /><br />Your ZoroCode ensures your payment matches your trip]]></string>
     <string name="account_locked">Account locked</string>
     <string name="got_it">GOT IT</string>

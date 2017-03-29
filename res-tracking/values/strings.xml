@@ -41,6 +41,7 @@
     <string name="zoro_pay_card_format">ZoroPay (Card *%1$s)</string>
     <string name="tip_percentage">Tip %1$d%%</string>
     <string name="tip_percentage_and_minimum">Tip %1$d%%, minimum %2$s</string>
+    <string name="show_more">More</string>
 
     <string name="review_rating_needed">Rate your experience</string>
     <string name="review_rating_done">Thanks for your feedback!</string>

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- variables -->
-    <string name="app_name" translatable="false">Zoro</string>
-    <string name="protocol" translatable="false">3.1</string>
-    <string name="facebook_app_id" translatable="false">748984198553364</string>
-
     <!-- UI -->
     <string name="ok">OK</string>
     <string name="cancel">Peruuta</string>
@@ -40,8 +35,6 @@
     <string name="about_dds">&#169; 2016 Digital Dispatch Systems</string>
     <string name="title_about_partner"> Zoro kumppanit</string>
     <string name="title_about_service_area"> Zoro toiminta-alueet</string>
-
-    <string name="reg_device_start">Kirjaudu&#8230;</string>
 
     <string name="profile">Profiili</string>
     <string name="payment">Maksu</string>
@@ -213,6 +206,7 @@
     <string name="err_invalid_attr_combination">Pahoittelumme. Sopivaa ajoneuvoa ei ole saatavilla. Vähennä kyydin vaatimuksia ja yritä uudelleen.</string>
     <string name="err_unknown_payment_token">Pahoittelumme. Käyttämäsi luottokortin kanssa on ongelma. Ole hyvä ja rekisteröi toinen kortti.</string>
     <string name="invalid_phone_num">Puhelinnumero on virheellinen</string>
+    <string name="phone_num_too_short">Puhelinnumerossa ei voi olla alle %1$d numeroa.</string>
     <string name="err_cannot_connect_google_client">Googlen sijaintipalvelu ei saatavilla</string>
     <string name="pick_me_up_here">NOUDA MINUT TÄÄLTÄ</string>
     <string name="eta_format">Arvio %1$s</string>
@@ -247,8 +241,7 @@
     <string name="zoro_code_accepted">ZoroKoodi hyväksytty</string>
     <string name="resend_code">LÄHETÄ KOODI</string>
     <string name="add_card">LISÄÄ KORTTI</string>
-    <string name="sign_up">Kirjaudu</string>
-    <string name="sign_up_upper_case">KIRJAUDU</string>
+    <string name="sign_up">Rekisteröidy</string>
     <string name="zorocode_tooltip"><![CDATA[Anna tämä koodi kuljettajalle kun astut autoon.<br /><br />Tämä ZoroKoodi liittää tilauksen ja maksun toisiinsa]]></string>
     <string name="account_locked">Tili lukittu</string>
     <string name="got_it">SELVÄ</string>

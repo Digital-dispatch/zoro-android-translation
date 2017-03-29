@@ -41,6 +41,7 @@
     <string name="zoro_pay_card_format">ZoroPay (Kortti *%1$s)</string>
     <string name="tip_percentage">Tippi %1$d%%</string>
     <string name="tip_percentage_and_minimum">Tippi %1$d%%, minimi %2$s</string>
+    <string name="show_more">Lisää</string>
 
     <string name="review_rating_needed">Arvioi kyytisi</string>
     <string name="review_rating_done">Kiitos palautteesta!</string>
