@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- variables -->
+    <string name="app_name" translatable="false">Zoro</string>
+    <string name="protocol" translatable="false">3.1</string>
+    <string name="facebook_app_id" translatable="false">748984198553364</string>
+
+    <!-- UI -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+
+    <!-- StringUtils related to login -->
+
+    <!-- register -->
+    <string name="register_intro_1">Let\'s get started!\nCreate your profile</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Mobile number</string>
+    <string name="empty_name">Please enter your Name</string>
+    <string name="warning">WARNING</string>
+    <string name="verify_dialog_text">A Verification SMS message is generated and sent to you at %1$s.\n\nPlease check your message for Verification code</string>
+    <string name="verify">VERIFY</string>
+    <string name="next">NEXT</string>
+    <string name="verify_success_confirm">Your phone number is successfully verified. Thank you!</string>
+    <string name="verify_failed">Verification failed.  Please check the verification code and try again.</string>
+
+    <!-- About -->
+    <string name="version_small">Version: %s</string>
+
+    <string name="about_text_stats">Zoro is currently available in %1$s, and working with %2$s.</string>
+    <string name="about_text_cities">%d cities</string>
+    <string name="about_text_partners">%d partners</string>
+
+    <string name="about_text_1">Zoro is the service that drives a better ride-hailing experience.</string>
+    <string name="about_text_2">Zoro works across service areas and with multiple transportation providers.</string>
+    <string name="about_dds">&#169; 2016 Digital Dispatch Systems</string>
+    <string name="title_about_partner"> Zoro partners</string>
+    <string name="title_about_service_area"> Zoro service areas</string>
+
+    <string name="reg_device_start">Login&#8230;</string>
+
+    <string name="profile">Profile</string>
+    <string name="payment">Payment</string>
+    <string name="about">About</string>
+    <string name="book">Book my trip</string>
+    <string name="register_to_book">Sign up to book</string>
+    <string name="track">TRACK</string>
+
+    <!-- Book Fragment -->
+    <string name="now">Now</string>
+
+    <!-- Book Activity -->
+    <string name="note_title">Message for driver</string>
+    <string name="enter_for_est_fare">Enter destination for fare estimate</string>
+
+    <!-- Payment -->
+    <string name="add_credit_card">Add Credit Card</string>
+    <string name="credit_card">Credit card</string>
+    <string name="total">Total</string>
+    <string name="driver_tip">Driver tip</string>
+
+    <!-- Payment message -->
+    <string name="delete_confirmation">Are you sure you want to delete?</string>
+    <string name="empty_email">Please enter an email address for receipts.</string>
+    <string name="email_invalid">Please enter a valid email address.</string>
+    <!-- in minutes -->
+
+
+    <string-array name="cancel_reasons">
+        <item>Just testing the app</item>
+        <item>It\'s taking too long</item>
+        <item>Grabbed a ride off the street</item>
+        <item>Someone just stole my vehicle!</item>
+        <item>Decided to walk, take bus etc.</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="country_array">
+        <item>Canada</item>
+        <item>United States</item>
+        <item>United Kingdom</item>
+        <item>Finland</item>
+    </string-array>
+
+
+    <!-- GCM Messages -->
+    <!-- Late Trip Notification -->
+    <string name="late_trip_wait">Wait</string>
+
+    <!-- error messages -->
+    <string name="err_no_current_location">Cannot get current location. Please ensure your location services are enabled.</string>
+    <string name="err_no_internet">No Internet or WiFi connection is available.</string>
+    <string name="err_msg_book_req_area_not_bookable">Address is not within the transportation provider\'s service area. Please choose a different address.</string>
+    <string name="err_msg_book_req_invalid_account">Invalid company account #. Do you want to delete the company account?</string>
+    <string name="err_msg_book_req_account_err">        Problem with company account. Please call [company phone] to book your vehicle.</string>
+    <string name="booking_failed_generic_msg">Booking failed. Please call [company phone] to book your vehicle.</string>
+    <string name="err_msg_no_response">Service unavailable.  Please check your wireless connection and try again.</string>
+    <string name="err_no_company_found">No vehicles available in this area.</string>
+    <string name="err_error_response">Error Response</string>
+    <string name="err_no_response_error">No Response Error</string>
+    <string name="err_msg_reg_email">Login failed. Please check email address.</string>
+    <string name="err_msg_no_internet">Please make sure you are connected to a wireless network.</string>
+
+    <!-- dialog messages -->
+    <string name="title_cancel_successful">Trip canceled</string>
+    <string name="message_cancel_successful">You have canceled your trip</string>
+    <string name="title_cancel_failed">Error</string>
+    <string name="message_cancel_failed_rejected_by_pf">Your trip cannot be canceled at the moment. Please check your wireless connection and try again.</string>
+
+    <string name="message_track_send_msg_success">Successfully sent message to driver</string>
+    <string name="delete_successful">" has been successfully deleted"</string>
+
+    <string name="lock_screen_text">Your account has been blocked at request from one of our transportation partners.\n\nIf you need assistance in resolving this issue, please contact us.</string>
+
+    <string name="email_us">EMAIL US</string>
+    <!-- Address format -->
+
+    <string name="title_activity_book">My trip</string>
+    <string name="title_activity_driver_note">Message for driver</string>
+    <string name="invalid_address">Invalid Address</string>
+    <string name="err_user_unknown">It seems we don\'t have you registered in the system. Please verify your phone number again.</string>
+    <string name="err_user_waiting">Please verify your phone number with the code sent by text message.</string>
+
+    <string name="options">Options</string>
+
+    <string name="call_dispatch">"Call Dispatch"</string>
+    <string name="car_location_not_available">Car Location not available</string>
+    <string name="driver_msg_prefix">"FROM ZORO USER - "</string>
+    <string name="err_facebook">Cannot connect to Facebook. Please check your wireless connection and try again.</string>
+    <string name="err_google">Cannot get profile information. Please check your wireless connection and try again.</string>
+    <string name="cancel_reason_title">Why are you canceling?</string>
+    <string name="agree">Agree</string>
+    <string name="decline">Decline</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="must_agree">You must agree to the Terms and Conditions to continue using Zoro</string>
+    <string name="err_street_number_too_long">Street number is too many digits.</string>
+    <string name="send_mail">Send mail…</string>
+    <string name="today">Today</string>
+    <string name="err_no_matching_company">No matching transportation provider. Try selecting fewer booking options.</string>
+    <string name="or">or</string>
+    <string name="pickup_address">Pickup address</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="promo_code">Promo code</string>
+    <string name="the_company">"The company: "</string>
+    <string name="not_available_anymore">" is not available anymore."</string>
+    <string name="invalid_pickup_address">The pickup address is invalid</string>
+    <string name="err_fail_to_get_company_info">Unable to get transportation providers\' information. Please check your wireless connection and try again.</string>
+
+    <string name="invalid_drop_off_title">Destination Required</string>
+    <string name="invalid_drop_off_content">Destination is required to provide fare estimate</string>
+
+    <string name="no_code">NO CODE</string>
+    <string name="err_promo_code_not_valid">Promo code is not valid</string>
+    <string name="title_activity_register_cc">Add card</string>
+
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="no_address_found">No address found</string>
+    <string name="release_to_set">Lift finger to set address</string>
+    <string name="title_activity_new_register">Sign up</string>
+
+    <string name="driver_tip_title">How would you like to tip your driver?</string>
+    <string name="you_can_modify_trip">Tip is automatically applied to all your trips, unless you modify during each trip.\n\nMinimum tip allows you to set the minimum amount you will tip, unless you modify it during your trip.</string>
+    <string name="please_add_credit_card">Please add a credit card to proceed.\nYour card info will be stored securely</string>
+    <string name="add">ADD</string>
+    <string name="min_tip">Minimum tip</string>
+    <string name="percent">Percentage</string>
+    <string name="error_invalid_card">Card is invalid, please check the number and try again</string>
+    <string name="error_invalid_zip">Zip code is invalid, please check the number and try again</string>
+    <string name="error_invalid_cvv">CVV is invalid. Please check the number and try again</string>
+    <string name="error_save_cc">Failed to save credit card. Please check your wireless connection and try again</string>
+    <string name="try_again">Please try again</string>
+    <string name="retry">Retry</string>
+    <string name="title_activity_new_Profile">Profile</string>
+    <string name="profile_update_success">User profile is updated successfully</string>
+    <string name="title_activity_credit_card">Payment</string>
+    <string name="iconpack_location"></string>
+    <string name="select_fewer_attribute">No matching companies available</string>
+    <string name="zoro_pay_not_available">(ZoroPay unavailable)</string>
+    <string name="pay_in_vehicle">Pay in vehicle</string>
+
+    <string name="pay_fail">ZoroPay transaction failed. Please check your wireless connection and try again, or pay by another method.</string>
+    <string name="pay_success_info">was charged to your card %1$s.</string>
+    <string name="please_pay_driver">Please pay your driver before exiting.</string>
+    <string name="receipt_emailed">Your receipt will be emailed to you.</string>
+    <string name="see_you_next_time">We look forward to your next trip.</string>
+    <string name="thank_you_for_choosing_zoro">Thank you for choosing Zoro!</string>
+
+    <string name="reply">Reply</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="view_trip_detail">view trip detail</string>
+
+    <string name="tip_update_success">Tip for this trip was updated successfully.</string>
+    <string name="fail_to_update_tip">Failed to update tip. Please try again later.</string>
+
+    <string name="err_twitter_fail_to_get_email">Failed to get your email from twitter. Please enter it manually.</string>
+    <string name="err_twitter_fail_login">Failed to login to twitter. Please check your wireless connection and try again.</string>
+    <!--<string name="give_driver_code">Give driver code</string>-->
+    <string name="fail_to_get_payment_info">Failed to update payment information for this trip.  Please check your wireless connection and try again.</string>
+    <string name="err_payment_disable">Sorry, the selected company isn’t accepting ZoroPay right now. Please select the “Pay in vehicle” option instead.</string>
+    <string name="err_pre_auth_failed">Sorry, there appears to be an issue with your registered credit card. Please register another card or check with your card provider.</string>
+    <string name="err_cc_black_list">Sorry, your registered credit card has been flagged for fraudulent activity. Please register another card.</string>
+    <string name="err_invalid_attr_combination">Sorry, we don’t have any cars with options like that, please turn off some options and try again.</string>
+    <string name="err_unknown_payment_token">Sorry, there appears to be an issue with your registered credit card. Please register another card.</string>
+    <string name="invalid_phone_num">Invalid phone number</string>
+    <string name="err_cannot_connect_google_client">Not able to connect to Google location client</string>
+    <string name="pick_me_up_here">PICK ME UP HERE</string>
+    <string name="eta_format">Est. %1$s</string>
+    <string name="title_activity_choose_company">Available companies</string>
+    <string name="company_not_match_title">Companies that don\'t match your criteria</string>
+
+    <string name="enter_code_format">Enter code sent to %1$s</string>
+    <string name="back">BACK</string>
+    <string name="payment_intro_1"><![CDATA[Add a credit card to enjoy\nZoroPay in-app payment]]></string>
+    <string name="payment_intro_2">\u2022 Get in and out faster with automatic payment\n\u2022 Receive receipt in app &amp; email\n\u2022 Arrive at your destination and simply exit the vehicle</string>
+    <string name="skip">SKIP</string>
+    <string name="done">DONE</string>
+    <string name="title_activity_address">AddressActivity</string>
+    <string name="title_activity_my_place">My places</string>
+    <string name="change_name">Change name</string>
+    <string name="remove">Remove</string>
+    <string name="my_place">My places</string>
+    <string name="title_activity_change_my_place_name">Set name</string>
+    <string name="save_to_my_places">Save to my places</string>
+    <string name="save_as_home">Save as home</string>
+    <string name="save_as_work">Save as work</string>
+    <string name="save_home_success">Saved to home successfully</string>
+    <string name="save_work_success">Saved to work successfully</string>
+    <string name="nickname_cannot_empty">Nickname is a mandatory field.</string>
+    <string name="save_to_my_places_success">%1$s was successfully saved to My Places</string>
+
+    <string name="use_zoropay">use zoropay</string>
+    <string name="zoro_pay_format">ZoroPay (%1$s *%2$s)</string>
+    <string name="invalid_pickup_time">Pick up time is invalid</string>
+    <string name="payment_intro_3">Available with participating transport providers</string>
+    <string name="is_your_zoro_code">ZoroCode</string>
+    <string name="zoro_code_accepted">ZoroCode accepted</string>
+    <string name="resend_code">RESEND CODE</string>
+    <string name="add_card">ADD CARD</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_up_upper_case">SIGN UP</string>
+    <string name="zorocode_tooltip"><![CDATA[Give this code to your driver when entering vehicle.<br /><br />Your ZoroCode ensures your payment matches your trip]]></string>
+    <string name="account_locked">Account locked</string>
+    <string name="got_it">GOT IT</string>
+    <string name="enter_code">Enter your promo code here if you have one.</string>
+    <string name="delete_cc_success">Credit card was successfully deleted</string>
+    <string name="title_activity_on_board">Zoro</string>
+    <string name="verified">Verified</string>
+    <string name="register_success_dialog">Thank you for signing up.\nNow let\'s get you a ride!</string>
+    <string name="snack_bar_no_cab_available">No vehicles available.\nZoro is not available in this area.</string>
+    <string name="snackbar_need_to_sign_up">You need to sign up before\nbooking your trip.</string>
+    <string name="delete_cc_confirmation">Delete card *%1$s?</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="fare_disclaimer">This is an estimate only and the actual amount charged by the vehicle could vary.</string>
+    <string name="dup_job_title">Duplicate Trip</string>
+    <string name="dup_job_content">You already have a trip booked for this pick-up address. Please cancel your previous trip, before booking this trip.</string>
+    <string name="delete_cc_failed">Failed to delete credit card. Please check your wireless connection and try again.</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+    <string name="myplace_empty">You don\'t have any my places</string>
+    <string name="fail_to_load_my_place">Failed to load my places</string>
+    <string name="set_as_drop_off">Set as destination</string>
+    <string name="set_as_pick_up">Set as pick up</string>
+    <string name="err_street_number_invalid">Please enter a valid number.</string>
+    <string name="vehicle_option_not_available">Selected vehicle option is not available</string>
+
+    <string name="abandon_registration">Abandon registration?</string>
+    <string name="unalbe_to_connect_to_google">Unable to connect to Google server</string>
+    <string name="unable_to_get_token">OpenEdge server issue, please try again later</string>
+    <string name="unable_to_get_my_place">Unable to get My Place address</string>
+
+    <string name="eula_link_label">Please agree to the %1$s to continue</string>
+
+    <string name="no_gcm">Google Cloud Messaging Server Error</string>
+    <string name="no_email_client_installed">There are no email clients installed.</string>
+    <string name="job_index_and_count">%1$d of %2$d</string>
+
+    <!--Intro pages-->
+    <string name="intro_title_1">Request a ride</string>
+    <string name="intro_content_1">\u2022    Hail a ride immediately or book in advance\n\u2022    See available vehicles on the map\n\u2022    Know your estimated fare</string>
+    <string name="intro_title_2">Choose your options</string>
+    <string name="intro_content_2">\u2022    Select the type of vehicle\n\u2022    Choose the vehicle options\n\u2022    Select the date and time to be picked up</string>
+    <string name="intro_title_3">Pay your way</string>
+    <string name="intro_content_3">\u2022    Pay in the vehicle with cash or card\n\u2022    Pay in the app with ZoroPay\n\u2022    Get email receipts with ZoroPay</string>
+
+    <string name="intro_title_4">Use ZoroPay</string>
+    <string name="intro_content_4_1">Register your credit card\nfor automatic payment</string>
+    <string name="intro_content_4_2">Receive a ZoroCode each\ntime you use ZoroPay</string>
+    <string name="intro_content_4_3">Give driver your ZoroCode\nwhen entering the vehicle</string>
+    <string name="intro_content_4_4">This ensures that your\npayment matches your trip</string>
+    <string name="intro_content_4_5">Arrive at your destination\nand simply exit the vehicle</string>
+    <string name="intro_content_4_6">Available with participating transportation providers</string>
+
+    <string name="default_car_type_any_type">Any type</string>
+    <string name="default_car_type_sedan">Sedan</string>
+    <string name="default_car_type_van">Van</string>
+    <string name="default_car_type_wheelchair">Wheelchair</string>
+
+    <string name="uk_car_type_any_type">Any type</string>
+    <string name="uk_car_type_saloon">Saloon</string>
+    <string name="uk_car_type_estate">Estate</string>
+    <string name="uk_car_type_executive">Executive</string>
+    <string name="uk_car_type_mpv">MPV</string>
+    <string name="uk_car_type_4_seater">4 Seater</string>
+    <string name="uk_car_type_5_seater">5 Seater</string>
+    <string name="uk_car_type_6_seater">6 Seater</string>
+    <string name="uk_car_type_7_seater">7 Seater</string>
+    <string name="uk_car_type_8_seater">8 Seater</string>
+    <string name="uk_car_type_wheelchair">Wheelchair</string>
+
+    <string name="default_attribute_child_seat">Child Seat</string>
+    <string name="default_attribute_luggage">Luggage</string>
+    <string name="default_attribute_pet_friendly">Pet-friendly</string>
+    <string name="default_attribute_hybrid">Hybrid</string>
+    <string name="default_attribute_delivery">Delivery</string>
+
+    <string name="dialog_content_aero_car_event">We are glad to announce that Aerocar is joining Zoro to provide black car service in the Vancouver area.</string>
+
+</resources>

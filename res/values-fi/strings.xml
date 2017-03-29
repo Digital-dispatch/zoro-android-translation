@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- variables -->
+    <string name="app_name" translatable="false">Zoro</string>
+    <string name="protocol" translatable="false">3.1</string>
+    <string name="facebook_app_id" translatable="false">748984198553364</string>
+
+    <!-- UI -->
+    <string name="ok">OK</string>
+    <string name="cancel">Peruuta</string>
+    <string name="yes">Kyllä</string>
+    <string name="no">Ei</string>
+    <string name="save">Tallenna</string>
+    <string name="delete">Poista</string>
+
+    <!-- StringUtils related to login -->
+
+    <!-- register -->
+    <string name="register_intro_1">Lähdetään liikkelle!\nLuo itsellesi profiili</string>
+    <string name="name">Nimi</string>
+    <string name="email">Sähköposti</string>
+    <string name="phone_number">Puhelinnumero</string>
+    <string name="empty_name">Kirjoita koko nimesi</string>
+    <string name="warning">VAROITUS</string>
+    <string name="verify_dialog_text">Vahvistuskoodi on lähetetty sinulle SMS viestinä klo %1$s.\n\nTarkasta viestistä vahvistuskoodisi</string>
+    <string name="verify">VAHVISTA</string>
+    <string name="next">SEURAAVA</string>
+    <string name="verify_success_confirm">Puhelinnumeron vahvistaminen onnistui. Kiitos!</string>
+    <string name="verify_failed">Kirjoita oikea vahvistuskoodi</string>
+
+    <!-- About -->
+    <string name="version_small">Versio: %s</string>
+    
+    <string name="about_text_stats">Zoro on tarjolla nyt myös %1$s:ssa, tuetuissa %2$s-laitteissa.</string>
+    <string name="about_text_cities">%d kaupungissa</string>
+    <string name="about_text_partners">%d kumppanilla</string>
+
+    <string name="about_text_1">Zoro tekee kyydin tilaamisesta helppoa ja nopeaa.</string>
+    <string name="about_text_2">Zoro toimii laajalla alueella ja tavoittaa useita kuljetusten tarjoajia.</string>
+    <string name="about_dds">&#169; 2017 Digital Dispatch Systems</string>
+    <string name="title_about_partner"> Zoro kumppanit</string>
+    <string name="title_about_service_area"> Zoro toiminta-alueet</string>
+
+    <string name="reg_device_start">Kirjaudu&#8230;</string>
+
+    <string name="profile">Profiili</string>
+    <string name="payment">Maksu</string>
+    <string name="about">Tietoja</string>
+    <string name="book">Tilaa</string>
+    <string name="register_to_book">Rekisteröidy tilataksesi</string>
+    <string name="track">SEURAA AUTOA</string>
+
+    <!-- Book Fragment -->
+    <string name="now">Nyt</string>
+
+    <!-- Book Activity -->
+    <string name="note_title">Viesti kuljettajalle</string>
+    <string name="enter_for_est_fare">Kirjoita kohde hinta-arvion laskemiseksi</string>
+
+    <!-- Payment -->
+    <string name="add_credit_card">Lisää luottokortti</string>
+    <string name="credit_card">Luottokortti</string>
+    <string name="total">Yhteensä</string>
+    <string name="driver_tip">Palveluraha</string>
+
+    <!-- Payment message -->
+    <string name="delete_confirmation">Haluatko varmasti poistaa?</string>
+    <string name="empty_email">Kirjoita sähköpostiosoite kuittia varten</string>
+    <string name="email_invalid">Kirjoita voimassaoleva sähköpostiosoite</string>
+    <!-- in minutes -->
+
+
+    <string-array name="cancel_reasons">
+        <item>Sovelluksen testaamista</item>
+        <item>Kyytiä ei kuulunut</item>
+        <item>Otin kyydin lennosta</item>
+        <item>Joku varasti kyytini!</item>
+        <item>Päätin kävellä, mennä bussilla, tms.</item>
+        <item>Muu syy</item>
+    </string-array>
+
+
+    <string-array name="country_array">
+        <item>Kanada</item>
+        <item>Yhdysvallat</item>
+        <item>Yhdistynyt kuningaskunta</item>
+        <item>Suomi</item>
+    </string-array>
+
+
+    <!-- GCM Messages -->
+    <!-- Late Trip Notification -->
+    <string name="late_trip_wait">Odota</string>
+
+    <!-- error messages -->
+    <string name="err_no_current_location">Nykysijaintia ei saatavilla, tarkasta GPS-asetukset</string>
+    <string name="err_no_internet">Ei Internet- tai WiFi-yhteyttä.</string>
+    <string name="err_msg_book_req_area_not_bookable">Osoite ei ole kuljetusten tarjoajan toiminta-alueella. Valitse toinen osoite.</string>
+    <string name="err_msg_book_req_invalid_account">Yrityksen tilinumero # on virheellinen. Haluatko poistaa yrityksen tilin?</string>
+    <string name="err_msg_book_req_account_err">        Ongelma yrityksen tilissä. Tilaa kuljetus soittamalla [company phone].</string>
+    <string name="booking_failed_generic_msg">Kyydin tilaaminen epäonnistui. Tilaa kyyti soittamalla [company phone].</string>
+    <string name="err_msg_no_response">Palvelu ei ole juuri nyt saatavilla, yritä myöhemmin uudelleen.</string>
+    <string name="err_no_company_found">Valitettavasti autoja ei ole tällä hetkellä saatavilla.</string>
+    <string name="err_error_response">Ei vastausta</string>
+    <string name="err_no_response_error">Ei vastausta -virhe</string>
+    <string name="err_msg_reg_email">Kirjautuminen epäonnistui. Tarkista sähköpostiosoite.</string>
+    <string name="err_msg_no_internet">Varmista, että olet yhteydessä Internetiin.</string>
+
+    <!-- dialog messages -->
+    <string name="title_cancel_successful">Tilaus peruttu</string>
+    <string name="message_cancel_successful">Olet peruuttanut tilauksesi</string>
+    <string name="title_cancel_failed">Virhe</string>
+    <string name="message_cancel_failed_rejected_by_pf">Tilausta ei voi perua juuri nyt, yritä myöhemmin uudelleen.</string>
+
+    <string name="message_track_send_msg_success">Viesti lähetetty kuljettajalle</string>
+    <string name="delete_successful">" poistaminen onnistui"</string>
+
+    <string name="lock_screen_text">Puhelinnumerosi on estetty palvelussa yhden liikennöitsijämme pyynnöstä.\n\nOta meihin yhteyttä, jos tarvitset apua asian selvittämiseksi.</string>
+
+    <string name="email_us">LÄHETÄ MEILLE SÄHKÖPOSTIA</string>
+    <!-- Address format -->
+
+
+    <string name="title_activity_book">Matkan tiedot</string>
+    <string name="title_activity_driver_note">Viesti kuljettajalle</string>
+    <string name="invalid_address">Virheellinen osoite</string>
+    <string name="err_user_unknown">Tietojasi ei ole tallennettu meille. Vahvista puhelinnumerosi uudelleen. Pahoittelemme häiriötä</string>
+    <string name="err_user_waiting">Vahvista puhelinnumerosi</string>
+
+    <string name="options">Asetukset</string>
+
+    <!--<string name="gcm_accept">"A taxi is on the way to pick you up</string>-->
+    <!--<string name="gcm_arrive">"Your taxi has arrived"</string>-->
+    <!--<string name="gcm_noshow">"Your trip was canceled because the driver could not find you"</string>-->
+    <!--<string name="gcm_late_trip">"We are sorry! Your taxi is delayed due to high demand. If you choose to cancel the trip, no fee will be charged."</string>-->
+    <string name="call_dispatch">"Soita välitykseen"</string>
+    <string name="car_location_not_available">Auton sijaintia ei saatavilla</string>
+    <string name="driver_msg_prefix">"ZOROn KÄYTTÄJÄLTÄ - "</string>
+    <string name="err_facebook">Yhteyden muodostaminen Facebookiin epäonnistui, yritä myöhemmin uudelleen</string>
+    <string name="err_google">Profiilitietoja ei saatavilla</string>
+    <string name="cancel_reason_title">Mikä on peruutuksen syy?</string>
+    <string name="agree">Hyväksyn</string>
+    <string name="decline">Hylkää</string>
+    <string name="terms_and_conditions">Käyttöehdot</string>
+    <string name="must_agree">Sinun täytyy hyväksyä käyttöehdot, jotta voit jatkaa Zoron käyttämistä</string>
+    <string name="err_street_number_too_long">Kadun numero on liian pitkä</string>
+    <string name="send_mail">Lähetä sähköpostia…</string>
+    <string name="today">Tänään</string>
+    <string name="err_no_matching_company">Sopivaa kuljetusten tarjoajaa ei saatavilla.\nVähennä kyydin vaatimuksia ja yritä uudelleen.</string>
+    <string name="or">tai</string>
+    <string name="pickup_address">Nouto-osoite</string>
+    <string name="confirm">VAHVISTA</string>
+    <string name="promo_code">Tarjouskoodi</string>
+    <string name="the_company">"Yritys: "</string>
+    <string name="not_available_anymore">" ei ole saatavilla enää."</string>
+    <string name="invalid_pickup_address">Virheellinen nouto-osoite</string>
+    <string name="err_fail_to_get_company_info">Kuljetusten tarjoajan tietoja ei saatavilla. Varmista, että olet yhteydessä Internetiin.</string>
+
+    <string name="invalid_drop_off_title">Kohdeosoite vaaditaan</string>
+    <string name="invalid_drop_off_content">Kohdeosoite tarvitaan hinta-arviota varten</string>
+
+    <string name="no_code">EI KOODIA</string>
+    <string name="err_promo_code_not_valid">Tarjouskoodi on virheellinen</string>
+    <string name="title_activity_register_cc">Lisää luottokortti</string>
+
+    <string name="no_location_data_provided">Nykysijaintia ei saatavilla</string>
+    <string name="service_not_available">Pahoittelumme, palvelua ei saatavilla</string>
+    <string name="no_address_found">Osoitetta ei löydy</string>
+    <string name="release_to_set">Nosta sormi määrittääksesi osoitteen</string>
+    <string name="title_activity_new_register">Rekisteröidy</string>
+
+    <string name="driver_tip_title">Kuinka haluaisit maksaa palvelurahan?</string>
+    <string name="you_can_modify_trip">Palveluraha (tippi) lisätään automaattisesti kaikkiin tilauksiisi. Voit muuttaa sitä myös tilauskohtaisesti.\n\nVoit lisäksi määritellä palvelurahan vähimmäismäärän, joka lisätään kaikkiin tilauksiisi. Tätä voi myös muuttaa tilauskohtaisesti.</string>
+    <string name="please_add_credit_card">Lisää luottokortin tiedot jatkaaksesi.\nKorttisi tiedot tallennetaan luotettavasti</string>
+    <string name="add">LISÄÄ</string>
+    <string name="min_tip">Vähintään</string>
+    <string name="percent">Prosentti</string>
+    <string name="error_invalid_card">Luottokortin tiedoissa on virhe. Tarkista ne ja yritä uudelleen</string>
+    <string name="error_invalid_zip">Postinumero on virheellinen. Tarkista se ja yritä uudelleen</string>
+    <string name="error_invalid_cvv">CVV on virheellinen. Tarkista se ja yritä uudelleen</string>
+    <string name="error_save_cc">Luottokortin tallennus epäonnistui</string>
+    <string name="try_again">Yritä uudelleen</string>
+    <string name="retry">Uudestaan</string>
+    <string name="title_activity_new_Profile">Profiili</string>
+    <string name="profile_update_success">Käyttäjäprofiilin päivitys onnistui</string>
+    <string name="title_activity_credit_card">Maksu</string>
+    <string name="iconpack_location"></string>
+    <string name="select_fewer_attribute">Sopivaa kuljetusten tarjoajaa ei saatavilla</string>
+    <string name="zoro_pay_not_available">(ZoroPay ei saatavilla)</string>
+    <string name="pay_in_vehicle">Maksa autossa</string>
+
+    <string name="pay_fail">ZoroPay-maksu epäonnistui.</string>
+    <string name="pay_success_info">veloitettu luottokortilta %1$s.</string>
+    <string name="please_pay_driver">Maksa kuljettajalle ennen autosta poistumista.</string>
+    <string name="receipt_emailed">Kuitti saapuu sähköpostilla.</string>
+    <string name="see_you_next_time">Tervetuloa uudelleen.</string>
+    <string name="thank_you_for_choosing_zoro">Kiitos että valitsit Zoron!</string>
+
+    <string name="reply">Vastaa</string>
+    <string name="dismiss">Hylkää</string>
+    <string name="view_trip_detail">näytä tilauksen tiedot</string>
+
+    <string name="tip_update_success">Tämän tilauksen palvelurahan muutos onnistui.</string>
+    <string name="fail_to_update_tip">Tilauksen palvelurahan muutos epäonnistui. Yritä myöhemmin uudelleen.</string>
+
+    <string name="err_twitter_fail_to_get_email">Sähköpostiosoitteen haku Twitteristä epäonnistui</string>
+    <string name="err_twitter_fail_login">Kirjautuminen Twitteriin epäonnistui</string>
+    <!--<string name="give_driver_code">Give driver code</string>-->
+    <string name="fail_to_get_payment_info">Tilauksen maksutietoja ei löydy</string>
+    <string name="err_payment_disable">Pahoittelumme. Kyseinen yritys ei vastaanota ZoroPay-maksuja. Käytä vaihtoehtoa “Maksa autossa”.</string>
+    <string name="err_pre_auth_failed">Pahoittelumme. Käyttämäsi luottokortin kanssa on ongelma. Selvitä asia luottokorttiyrityksessä tai rekisteröi toinen kortti.</string>
+    <string name="err_cc_black_list">Pahoittelumme. Käyttämäsi luottokortti on hylätty huijausyrityksen vuoksi. Rekisteröi toinen kortti.</string>
+    <string name="err_invalid_attr_combination">Pahoittelumme. Sopivaa ajoneuvoa ei ole saatavilla. Vähennä kyydin vaatimuksia ja yritä uudelleen.</string>
+    <string name="err_unknown_payment_token">Pahoittelumme. Käyttämäsi luottokortin kanssa on ongelma. Ole hyvä ja rekisteröi toinen kortti.</string>
+    <string name="invalid_phone_num">Puhelinnumero on virheellinen</string>
+    <string name="err_cannot_connect_google_client">Googlen sijaintipalvelu ei saatavilla</string>
+    <string name="pick_me_up_here">NOUDA MINUT TÄÄLTÄ</string>
+    <string name="eta_format">Arvio %1$s</string>
+    <string name="title_activity_choose_company">Saatavilla olevat yritykset</string>
+    <string name="company_not_match_title">Yritykset, jotka eivät vastaa vaatimuksiasi</string>
+
+    <string name="enter_code_format">Syötä koodi joka lähetettiin numeroon %1$s</string>
+    <string name="back">TAKAISIN</string>
+    <string name="payment_intro_1"><![CDATA[Tallenna luottokortin tiedot\nmaksaaksesi sovelluksessa ZoroPaylla]]></string>
+    <string name="payment_intro_2">\u2022 Säästät aikaa autosta poistuessasi kun otat automaattisen maksun käyttöön.\n\u2022 Vastaanota kuitit puhelimeesi &amp; sähköpostiin\n\u2022 Voit poistua autosta heti kun olet perillä</string>
+    <string name="skip">OHITA</string>
+    <string name="done">VALMIS</string>
+    <string name="title_activity_address">OsoiteAktiivisuus</string>
+    <string name="title_activity_my_place">Omat paikat</string>
+    <string name="change_name">Vaihda nimi</string>
+    <string name="remove">Poista</string>
+    <string name="my_place">Omat paikat</string>
+    <string name="title_activity_change_my_place_name">Anna nimi</string>
+    <string name="save_to_my_places">Tallenna Omiin paikkoihin</string>
+    <string name="save_as_home">Tallenna koti</string>
+    <string name="save_as_work">Tallenna työ</string>
+    <string name="save_home_success">Kodin tallennus onnistui</string>
+    <string name="save_work_success">Työn tallennus onnistui</string>
+    <string name="nickname_cannot_empty">Lempinimi ei voi olla tyhjä</string>
+    <string name="save_to_my_places_success">%1$s tallennettiin Omiin paikkoihin</string>
+
+    <string name="use_zoropay">käytä ZoroPay:ta</string>
+    <string name="zoro_pay_format">ZoroPay (%1$s *%2$s)</string>
+    <string name="invalid_pickup_time">Noutoaika on virheellinen</string>
+    <string name="payment_intro_3">Saatavilla palveluun liittyneiltä kuljetusten tarjoajilta</string>
+    <string name="is_your_zoro_code">ZoroKoodi</string>
+    <string name="zoro_code_accepted">ZoroKoodi hyväksytty</string>
+    <string name="resend_code">LÄHETÄ KOODI</string>
+    <string name="add_card">LISÄÄ KORTTI</string>
+    <string name="sign_up">Kirjaudu</string>
+    <string name="sign_up_upper_case">KIRJAUDU</string>
+    <string name="zorocode_tooltip"><![CDATA[Anna tämä koodi kuljettajalle kun astut autoon.<br /><br />Tämä ZoroKoodi liittää tilauksen ja maksun toisiinsa]]></string>
+    <string name="account_locked">Tili lukittu</string>
+    <string name="got_it">SELVÄ</string>
+    <string name="enter_code">Syötä tähän mahdollinen tarjouskoodi.</string>
+    <string name="delete_cc_success">Luottokortin tiedot poistettu onnistuneesti</string>
+    <string name="title_activity_on_board">Zoro</string>
+    <string name="verified">Vahvistettu</string>
+    <string name="register_success_dialog">Kiitos rekisteröitymisestä.\nNyt etsitään sinulle kyyti!</string>
+    <string name="snack_bar_no_cab_available">Autoja ei saatavilla.\nZoro ei ole käytössä tällä alueella.</string>
+    <string name="snackbar_need_to_sign_up">Sinun täytyy kirjautua ennen\nkyydin tilaamista.</string>
+    <string name="delete_cc_confirmation">Poista kortti *%1$s?</string>
+    <string name="disclaimer">Vastuuvapauslauseke</string>
+    <string name="fare_disclaimer">Tämä on vain arvio. Kyydin lopullinen hinta voi vaihdella.</string>
+    <string name="dup_job_title">Toista tilaus</string>
+    <string name="dup_job_content">Sinulla on jo tilaus olemassa tähän nouto-osoitteeseen. Ole hyvä ja poista aikaisempi tilaus ennen uuden luomista.</string>
+    <string name="delete_cc_failed">Luottokortin tietojen poisto epäonnistui. Yritä myöhemmin uudelleen.</string>
+    <string name="home">Koti</string>
+    <string name="work">Työ</string>
+    <string name="myplace_empty">Et ole määritellyt Omia paikkoja</string>
+    <string name="fail_to_load_my_place">Omia paikkoja ei voi ladata</string>
+    <string name="set_as_drop_off">Aseta kohteeksi</string>
+    <string name="set_as_pick_up">Aseta noutopaikaksi</string>
+    <string name="err_street_number_invalid">Täytyy olla numero</string>
+    <string name="vehicle_option_not_available">Valittu varuste ei saatavilla</string>
+
+    <string name="abandon_registration">Keskeytä rekisteröinti?</string>
+    <string name="unable_to_get_my_place">Oman paikan osoite ei saatavilla</string>
+    <string name="unable_to_get_token">OpenEdge palvelinongelma, yritä myöhemmin uudelleen</string>
+    <string name="unalbe_to_connect_to_google">Googlen palvelin ei saatavilla</string>
+
+    <string name="eula_link_label">Sinun täytyy hyväksyä %1$s jotta voit jatkaa</string>
+
+    <string name="no_gcm">Ongelma Googlen viestintäpalvelimen pilvessä</string>
+    <string name="no_email_client_installed">Sähköpostiohjelmaa ei ole asennettu.</string>
+    <string name="job_index_and_count">%1$d / %2$d</string>
+
+    <!--Intro pages-->
+    <string name="intro_title_1">Tilaa kyyti</string>
+    <string name="intro_content_1">\u2022    Tilaa kyyti heti tai varaa kyyti etukäteen\n\u2022    Näytä vapaat autot kartalla\n\u2022    Vastaanota kyydin hinta-arvio</string>
+    <string name="intro_title_2">Määrittele kyydin ominaisuudet</string>
+    <string name="intro_content_2">\u2022    Valitse haluamasi automalli\n\u2022    Valitse haluamasi varusteet\n\u2022    Valitse haluamasi noutoajankohta</string>
+    <string name="intro_title_3">Maksa kuten haluat</string>
+    <string name="intro_content_3">\u2022    Maksa autossa joko kortilla tai käteisellä\n\u2022    Maksa sovelluksessa ZoroPaylla\n\u2022    Vastaanota sähköpostikuitit ZoroPaylla</string>
+
+    <string name="intro_title_4">Käytä ZoroPayta</string>
+    <string name="intro_content_4_1">Tallenna luottokorttisi tiedot\nautomaattista maksua varten</string>
+    <string name="intro_content_4_2">Vastaanota ZoroKoodi\naina kun käytät ZoroPayta</string>
+    <string name="intro_content_4_3">Anna ZoroKoodi kuljettajallesi\nkun nouset autoon</string>
+    <string name="intro_content_4_4">Näin varmistat että\ntilaus ja maksu liittyvät toisiinsa</string>
+    <string name="intro_content_4_5">Saavuttuasi kohteeseen\nsinun tarvitsee vain nousta autosta</string>
+    <string name="intro_content_4_6">Saatavilla palveluun liittyneiltä kuljetusten tarjoajilta</string>
+
+    <string name="default_car_type_any_type">Kaikki tyypit</string>
+    <string name="default_car_type_sedan">Henkilöauto</string>
+    <string name="default_car_type_van">Tila-auto</string>
+    <string name="default_car_type_wheelchair">Esteetön</string>
+
+    <string name="uk_car_type_any_type">Kaikki tyypit</string>
+    <string name="uk_car_type_saloon">Henkilöauto</string>
+    <string name="uk_car_type_estate">Farmari</string>
+    <string name="uk_car_type_executive">Luksus</string>
+    <string name="uk_car_type_mpv">MPV</string>
+    <string name="uk_car_type_4_seater">4-paikkainen</string>
+    <string name="uk_car_type_5_seater">5-paikkainen</string>
+    <string name="uk_car_type_6_seater">6-paikkainen</string>
+    <string name="uk_car_type_7_seater">7-paikkainen</string>
+    <string name="uk_car_type_8_seater">8-paikkainen</string>
+    <string name="uk_car_type_wheelchair">Esteetön</string>
+
+    <string name="default_attribute_child_seat">Lasten istuin</string>
+    <string name="default_attribute_luggage">Matkalaukku</string>
+    <string name="default_attribute_pet_friendly">Lemmikkiystävällinen</string>
+    <string name="default_attribute_hybrid">Hybridi</string>
+    <string name="default_attribute_delivery">Toimitus</string>
+
+    <string name="dialog_content_aero_car_event">Meillä on ilo ilmoittaa, että Aerocar tuo Zoroon mustien autojen palvelut Vancouverin alueella.</string>
+
+</resources>

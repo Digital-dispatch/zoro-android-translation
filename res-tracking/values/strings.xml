@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_company">Call transportation provider</string>
+    <string name="cancel_trip">Cancel trip</string>
+    <string name="book_again">Book again</string>
+    <string name="remove_history">Remove</string>
+
+    <string name="fare">Fare</string>
+    <string name="extra">Extra</string>
+    <string name="tip">Tip</string>
+    <string name="pay_with">Charged to</string>
+
+    <string name="completed">Completed</string>
+    <string name="canceled">Canceled</string>
+    <string name="not_rated">Please rate</string>
+
+    <string name="title_future_trip_list">Future trips</string>
+    <string name="title_history_trip_list">Past trips</string>
+
+    <string name="title_future_trip_detail">Future trip</string>
+
+    <string name="title_active_trip_detail_finding">Finding a vehicle</string><!--Followed by dots-->
+    <string name="title_active_trip_detail_dispatched">Vehicle is on its way</string><!--Followed by dots-->
+    <string name="title_active_trip_detail_arrived">Your ride has arrived</string>
+    <string name="title_active_trip_detail_in_service">Enjoy your ride</string><!--Followed by dots-->
+    <string name="title_active_trip_detail_completed">You have arrived!</string>
+
+    <string name="title_completed_trip_detail">Completed trip</string>
+    <string name="title_canceled_trip_detail">Canceled trip</string>
+
+    <string name="list_empty_future">You don’t have any future trips</string>
+    <string name="list_empty_history">You don’t have any past trips</string>
+
+    <string name="authorization_code">Authorization # %1$s</string>
+
+    <string name="asap">As soon as possible</string>
+    <string name="unknown_company">Unknown</string>
+    <string name="booking_id_label">Booking # %1$s</string>
+    <string name="driver_message_label">"Message for driver"</string>
+    <string name="any_vehicle_type">Any type</string>
+    <string name="zoro_pay_card_format">ZoroPay (Card *%1$s)</string>
+    <string name="tip_percentage">Tip %1$d%%</string>
+    <string name="tip_percentage_and_minimum">Tip %1$d%%, minimum %2$s</string>
+
+    <string name="review_rating_needed">Rate your experience</string>
+    <string name="review_rating_done">Thanks for your feedback!</string>
+
+    <string name="comment_reminder">How can we improve?</string>
+    <string name="please_type_comment">Type your comment here</string>
+    <string name="submit">Submit</string>
+
+    <string name="change_tip_dialog_title">Change driver tip</string>
+
+    <string name="please_rate_zoro">Would you mind rating Zoro?</string>
+    <string name="please_rate_zoro_yes">Sure</string>
+    <string name="please_rate_zoro_later">Later</string>
+    <string name="please_rate_zoro_no">No, thanks</string>
+</resources>

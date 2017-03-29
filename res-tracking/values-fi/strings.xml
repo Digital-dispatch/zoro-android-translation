@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_company">Soita kuljetusten tarjoajalle</string>
+    <string name="cancel_trip">Peruuta tilaus</string>
+    <string name="book_again">Tilaa uudelleen</string>
+    <string name="remove_history">Poista</string>
+
+    <string name="fare">Hinta</string>
+    <string name="extra">Ylim.</string>
+    <string name="tip">Palveluraha</string>
+    <string name="pay_with">Veloitus</string>
+
+    <string name="completed">Valmis</string>
+    <string name="canceled">Peruttu</string>
+    <string name="not_rated">Anna arvio</string>
+
+    <string name="title_future_trip_list">Tulevat tilaukset</string>
+    <string name="title_history_trip_list">Menneet tilaukset</string>
+
+    <string name="title_future_trip_detail">Tuleva tilaus</string>
+
+    <string name="title_active_trip_detail_finding">Etsitään autoa</string><!--Followed by dots-->
+    <string name="title_active_trip_detail_dispatched">Auto on matkalla</string><!--Followed by dots-->
+    <string name="title_active_trip_detail_arrived">Kyytisi on saapunut</string>
+    <string name="title_active_trip_detail_in_service">Turvallista matkaa</string><!--Followed by dots-->
+    <string name="title_active_trip_detail_completed">Olet perillä!</string>
+
+    <string name="title_completed_trip_detail">Valmis tilaus</string>
+    <string name="title_canceled_trip_detail">Peruttu tilaus</string>
+
+    <string name="list_empty_future">Sinulla ei ole tulevia tilauksia</string>
+    <string name="list_empty_history">Sinulla ei ole menneitä tilauksia</string>
+
+    <string name="authorization_code">Valtuutus # %1$s</string>
+
+    <string name="asap">Heti</string>
+    <string name="unknown_company">Tuntematon</string>
+    <string name="booking_id_label">Tilaus # %1$s</string>
+    <string name="driver_message_label">\"Viesti kuljettajalle\"</string>
+    <string name="any_vehicle_type">Kaikki tyypit</string>
+    <string name="zoro_pay_card_format">ZoroPay (Kortti *%1$s)</string>
+    <string name="tip_percentage">Tippi %1$d%%</string>
+    <string name="tip_percentage_and_minimum">Tippi %1$d%%, minimi %2$s</string>
+
+    <string name="review_rating_needed">Arvioi kyytisi</string>
+    <string name="review_rating_done">Kiitos palautteesta!</string>
+
+    <string name="comment_reminder">Missä voimme parantaa?</string>
+    <string name="please_type_comment">Kirjoita palautteesi tähän</string>
+    <string name="submit">Lähetä</string>
+
+    <string name="change_tip_dialog_title">Muuta palvelurahaa</string>
+
+    <string name="please_rate_zoro">Haluaisitko arvioida Zoron?</string>
+    <string name="please_rate_zoro_yes">Toki</string>
+    <string name="please_rate_zoro_later">Myöhemmin</string>
+    <string name="please_rate_zoro_no">Ei kiitos</string>
+</resources>
