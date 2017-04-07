@@ -191,7 +191,6 @@
 
     <string name="reply">Vastaa</string>
     <string name="dismiss">Hylkää</string>
-    <string name="view_trip_detail">näytä tilauksen tiedot</string>
 
     <string name="tip_update_success">Tämän tilauksen palvelurahan muutos onnistui.</string>
     <string name="fail_to_update_tip">Tilauksen palvelurahan muutos epäonnistui. Yritä myöhemmin uudelleen.</string>
@@ -328,4 +327,11 @@
     <string name="dialog_title_force_upgrade">Kriittinen päivitys</string>
     <string name="dialog_title_remind_upgrade">Päivitys saatavilla</string>
 
+
+    <string name="dialog_progress_content_default">Odota&#8230;</string>
+    <string name="dialog_progress_content_fetch_companies">Haetaan tietoja kuljetusten tarjoajista</string>
+    <string name="dialog_progress_content_get_fare_estimate">Luodaan hinta-arviota</string>
+
+    <string name="dialog_action_job_complete_rate">Arvioi</string>
+    <string name="dialog_action_job_complete_dismiss">Hylkää</string>
 </resources>

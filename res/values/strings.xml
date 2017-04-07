@@ -191,7 +191,6 @@
 
     <string name="reply">Reply</string>
     <string name="dismiss">Dismiss</string>
-    <string name="view_trip_detail">view trip detail</string>
 
     <string name="tip_update_success">Tip for this trip was updated successfully.</string>
     <string name="fail_to_update_tip">Failed to update tip. Please try again later.</string>
@@ -328,4 +327,10 @@
     <string name="dialog_title_force_upgrade">Critical Upgrade</string>
     <string name="dialog_title_remind_upgrade">Upgrade available</string>
 
+    <string name="dialog_progress_content_default">Please wait&#8230;</string>
+    <string name="dialog_progress_content_fetch_companies">Getting transportation\nproviders\' info</string>
+    <string name="dialog_progress_content_get_fare_estimate">Estimating fare</string>
+
+    <string name="dialog_action_job_complete_rate">Rate</string>
+    <string name="dialog_action_job_complete_dismiss">Dismiss</string>
 </resources>
