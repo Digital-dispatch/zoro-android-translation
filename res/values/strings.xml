@@ -132,8 +132,7 @@
     <string name="err_facebook">Cannot connect to Facebook. Please check your wireless connection and try again.</string>
     <string name="err_google">Cannot get profile information. Please check your wireless connection and try again.</string>
     <string name="cancel_reason_title">Why are you canceling?</string>
-    <string name="agree">Agree</string>
-    <string name="decline">Decline</string>
+
     <string name="terms_and_conditions">Terms and Conditions</string>
     <string name="must_agree">You must agree to the Terms and Conditions to continue using Zoro</string>
     <string name="err_street_number_too_long">Street number is too many digits.</string>
@@ -331,11 +330,9 @@
     <string name="dialog_progress_content_fetch_companies">Getting transportation\nproviders\' info</string>
     <string name="dialog_progress_content_get_fare_estimate">Estimating fare</string>
 
-    <string name="dialog_progress_content_default">Please wait&#8230;</string>
-    <string name="dialog_progress_content_fetch_companies">Getting transportation\nproviders\' info</string>
-    <string name="dialog_progress_content_get_fare_estimate">Estimating fare</string>
-
     <string name="dialog_action_job_complete_rate">Rate</string>
     <string name="dialog_action_job_complete_dismiss">Dismiss</string>
 
+    <string name="dialog_content_read_and_agree">I agree</string>
+    <string name="dialog_action_eula_continue">Continue</string>
 </resources>
